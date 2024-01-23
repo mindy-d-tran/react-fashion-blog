@@ -8,6 +8,7 @@ export const Title = styled.h1`
 export const NavMenuUl = styled.ul`
   list-style-type: none;
   display: flex;
+  padding-left: 0;
   justify-content: space-between;
 `;
 export const BlogImg = styled.img`
