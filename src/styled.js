@@ -11,6 +11,9 @@ export const NavMenuUl = styled.ul`
 export const BlogImg = styled.img`
   width: 100%;
 `;
+export const BlogTitle = styled.h2`
+    font-size: 2em;
+`;
 export const CopyRight = styled.p`
   color: lightgray;
 `;
