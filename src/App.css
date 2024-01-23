@@ -12,3 +12,11 @@ header, main, footer {
   padding: 2rem;
   padding-top: 1rem;
 }
+
+header li a {
+  color: lightgray
+}
+footer a{
+  color: tomato;
+  text-decoration: none;
+}
