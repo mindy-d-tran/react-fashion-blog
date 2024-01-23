@@ -1,6 +1,6 @@
 function Nav() {
   return (
-    <nav>
+    <nav aria-label="Main Navigation" role="navigation">
       <ul>
         <li>
           <a href="#">Women's</a>
