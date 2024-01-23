@@ -1,6 +1,6 @@
 function Nav() {
   return (
-    <>
+    <nav>
       <ul>
         <li>
           <a href="#">Women's</a>
@@ -21,7 +21,7 @@ function Nav() {
           <a href="#">About</a>
         </li>
       </ul>
-    </>
+    </nav>
   );
 }
 
