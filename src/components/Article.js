@@ -2,7 +2,7 @@ import { BlogImg } from "../styled";
 
 function Article() {
   return (
-    <section>
+    <main>
       <article>
         <time dateTime="2020-11-12">11/12/20</time>
         <h2>On The Street in Brooklyn</h2>
@@ -15,7 +15,7 @@ function Article() {
         <BlogImg src="https://ps-react-curriculum.herokuapp.com/fashionblog/blog-image-2.jpg" alt="blog img 2"></BlogImg>
         <p>lorem ipsum</p>
       </article>
-    </section>
+    </main>
   );
 }
 
