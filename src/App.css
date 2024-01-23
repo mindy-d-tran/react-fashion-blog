@@ -7,3 +7,8 @@ body{
   margin: auto;
   font-family: sans-serif;
 }
+
+header, main, footer {
+  padding: 2rem;
+  padding-top: 1rem;
+}
