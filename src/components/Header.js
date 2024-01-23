@@ -1,9 +1,10 @@
+import { Title } from "../styled";
 import Nav from "./Nav";
 
 function Header() {
   return (
     <header>
-      <h1>Sartre's List</h1>
+      <Title>Sartre's List</Title>
       <h2>Better-Dressed People</h2>
       <Nav />
     </header>
