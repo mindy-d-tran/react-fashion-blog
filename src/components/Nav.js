@@ -1,7 +1,9 @@
+import { NavMenuUl } from "../styled";
+
 function Nav() {
   return (
     <nav aria-label="Main Navigation" role="navigation">
-      <ul>
+      <NavMenuUl>
         <li>
           <a href="#">Women's</a>
         </li>
@@ -20,7 +22,7 @@ function Nav() {
         <li>
           <a href="#">About</a>
         </li>
-      </ul>
+      </NavMenuUl>
     </nav>
   );
 }
