@@ -1,9 +1,9 @@
-import { BlogImg, BlogText, BlogTitle, ExpandBlog } from "../styled";
+import { BlogImg, BlogPost, BlogText, BlogTitle, ExpandBlog } from "../styled";
 
 function Article() {
   return (
     <main>
-      <article>
+      <BlogPost>
         <time dateTime="2020-11-12">11/12/20</time>
         <BlogTitle>On The Street in Brooklyn</BlogTitle>
         <BlogImg
@@ -18,10 +18,10 @@ function Article() {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
-        </BlogText>
         <ExpandBlog>Continue...</ExpandBlog>
-      </article>
-      <article>
+        </BlogText>
+      </BlogPost>
+      <BlogPost>
         <time dateTime="2020-11-11">11/11/20</time>
         <BlogTitle>Vintage in Vogue</BlogTitle>
         <BlogImg
@@ -36,9 +36,9 @@ function Article() {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
-        </BlogText>
         <ExpandBlog>Continue...</ExpandBlog>
-      </article>
+        </BlogText>
+      </BlogPost>
     </main>
   );
 }
