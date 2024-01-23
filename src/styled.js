@@ -11,6 +11,11 @@ export const NavMenuUl = styled.ul`
   padding-left: 0;
   justify-content: space-between;
 `;
+export const BlogPost = styled.article`
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid lightgray;
+`;
 export const BlogImg = styled.img`
   width: 100%;
 `;
@@ -18,8 +23,8 @@ export const BlogTitle = styled.h2`
   font-size: 2em;
 `;
 export const ExpandBlog = styled.p`
-    float: right;
-    color: tomato;
+  float: right;
+  color: tomato;
 `;
 //style for drop cap https://css-tricks.com/snippets/css/drop-caps/
 export const BlogText = styled.p`
