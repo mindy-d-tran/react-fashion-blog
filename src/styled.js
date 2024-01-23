@@ -17,6 +17,10 @@ export const BlogImg = styled.img`
 export const BlogTitle = styled.h2`
   font-size: 2em;
 `;
+export const ExpandBlog = styled.p`
+    float: right;
+    color: tomato;
+`;
 //style for drop cap https://css-tricks.com/snippets/css/drop-caps/
 export const BlogText = styled.p`
   &::first-letter {
