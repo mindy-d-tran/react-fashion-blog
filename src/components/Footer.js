@@ -1,10 +1,11 @@
+import { CopyRight } from "../styled";
 import Nav from "./Nav";
 
 function Footer(){
     return (
         <footer>
             <Nav/>
-            <p>&#169; 2013 Valet Industries, Inc</p>
+            <CopyRight>&#169; 2013 Valet Industries, Inc</CopyRight>
         </footer>
     )
 }
